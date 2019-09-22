@@ -75,13 +75,14 @@ export const IndexPageTemplate = ({
                   </Link>
                 </div>
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
+                  <h3 className="text-4xl text-center">Latest stories</h3>
                   <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
+                  <div className="w-10/12 mx-auto flex justify-center	 content-center">
+                    <Link
+                      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+                      to="/products"
+                    >
+                      Read More
                     </Link>
                   </div>
                 </div>
