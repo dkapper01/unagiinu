@@ -8,45 +8,29 @@ import twitter from '../img/social/twitter.svg';
 import vimeo from '../img/social/vimeo.svg';
 
 const Footer = () => (
-  <footer className="flex">
-    <section className="">
-      <ul className="menu-list">
-        <li>
-          <Link to="/" className="navbar-item">
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link className="navbar-item" to="/about">
-            About
-          </Link>
-        </li>
-        <li>
-          <Link className="navbar-item" to="/products">
-            Products
-          </Link>
-        </li>
-        <li>
-          <Link className="navbar-item" to="/contact/examples">
-            Form Examples
-          </Link>
-        </li>
-      </ul>
-    </section>
-    <section>
-      <ul className="menu-list">
-        <li>
-          <Link className="navbar-item" to="/blog">
-            Latest Stories
-          </Link>
-        </li>
-        <li>
-          <Link className="navbar-item" to="/contact">
-            Contact
-          </Link>
-        </li>
-      </ul>
-    </section>
+  <footer className="flex py-24 bg-gray-200 ">
+    <ul className="flex w-9/12 mx-auto justify-center items-center text-center content-center self-center">
+      <li>
+        <Link to="/" className="navbar-item">
+          Home
+        </Link>
+      </li>
+      <li>
+        <Link className="navbar-item" to="/about">
+          About
+        </Link>
+      </li>
+      <li>
+        <Link className="navbar-item" to="/products">
+          Products
+        </Link>
+      </li>
+      <li>
+        <Link className="navbar-item" to="/contact">
+          Contact
+        </Link>
+      </li>
+    </ul>
   </footer>
 );
 

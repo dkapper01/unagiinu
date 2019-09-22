@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 const Navbar = () => (
-  <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+  <nav className="flex items-center justify-between flex-wrap bg-blue-400 p-6">
     <div className="flex items-center flex-shrink-0 text-white mr-6">
       <span className="font-medium text-xl tracking-tight">
         <Link to="/">Tailwind CSS</Link>
@@ -11,7 +11,7 @@ const Navbar = () => (
     <div className="block lg:hidden">
       <button
         type="button"
-        className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+        className="flex items-center px-3 py-2 border rounded text-white border-teal-400 hover:text-white hover:border-white"
       >
         <svg
           className="fill-current h-3 w-3"
@@ -29,7 +29,7 @@ const Navbar = () => (
           to="/about"
           href="#responsive-header"
           activeStyle={{ marginRight: '1rem' }}
-          class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+          class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-100 mr-4"
         >
           About
         </Link>
@@ -37,7 +37,7 @@ const Navbar = () => (
           to="/products"
           href="#responsive-header"
           activeStyle={{ marginRight: '1rem' }}
-          class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+          class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-100 mr-4"
         >
           Products
         </Link>
@@ -45,7 +45,7 @@ const Navbar = () => (
           to="/blog"
           href="#responsive-header"
           activeStyle={{ marginRight: '1rem' }}
-          class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+          class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-100 mr-4"
         >
           Blog
         </Link>
@@ -53,7 +53,7 @@ const Navbar = () => (
           to="/contact"
           href="#responsive-header"
           activeStyle={{ marginRight: '1rem' }}
-          class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+          class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-100 mr-4"
         >
           Contact
         </Link>

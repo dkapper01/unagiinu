@@ -9,11 +9,11 @@ class BlogRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark;
 
     return (
-      <div className="w-10/12 mx-auto flex">
+      <div className="w-11/12 mx-auto flex">
         {posts &&
           posts.map(({ node: post }) => (
             <div
-              className="max-w-sm rounded overflow-hidden shadow-lg"
+              className="max-w-sm rounded overflow-hidden shadow-lg mx-5"
               key={post.id}
             >
               {/* <article

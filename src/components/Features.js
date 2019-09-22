@@ -6,7 +6,7 @@ const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map(item => (
       <div key={item.text} className="">
-        <section className="w-10/12 mx-auto flex flex-row">
+        <section className="w-11/12 mx-auto flex flex-row">
           <PreviewCompatibleImage imageInfo={item} />
           <p className="w-2/4">{item.text}</p>
         </section>
