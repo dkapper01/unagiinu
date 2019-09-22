@@ -36,8 +36,8 @@ export const IndexPageTemplate = ({
       }}
     >
       <div className="flex flex-col">
-        <h1 className="text-white text-5xl">{title}</h1>
-        <h3 className="text-white text-2xl">{subheading}</h3>
+        <h1 className="text-white text-5xl text-center">{title}</h1>
+        <h3 className="text-white text-2xl text-center">{subheading}</h3>
       </div>
     </Hero>
 
@@ -61,21 +61,18 @@ export const IndexPageTemplate = ({
                 <div className="tile">
                   {/* <h3 className="subtitle">{mainpitch.description}</h3> */}
                 </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
+                {/* <div className="w-10/12 mx-auto">
+                  <h3 className="text-4xl text-center">{heading}</h3>
+                  <p>{description}</p>
+                </div> */}
                 <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
+                <div className="w-10/12 mx-auto flex justify-center	 content-center">
+                  <Link
+                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+                    to="/products"
+                  >
+                    See all products
+                  </Link>
                 </div>
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
