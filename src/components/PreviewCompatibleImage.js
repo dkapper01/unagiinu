@@ -7,16 +7,16 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
 
   if (!!image && !!image.childImageSharp) {
     return (
-      <Img className="w-full	" fluid={image.childImageSharp.fluid} alt={alt} />
+      <Img className="w-56" fluid={image.childImageSharp.fluid} alt={alt} />
     );
   }
 
   if (childImageSharp) {
-    return <Img className="w-full" fluid={childImageSharp.fluid} alt={alt} />;
+    return <Img className="w-56" fluid={childImageSharp.fluid} alt={alt} />;
   }
 
   if (!!image && typeof image === 'string')
-    return <img className="w-full" src={image} alt={alt} />;
+    return <img className="w-56" src={image} alt={alt} />;
 
   return null;
 };

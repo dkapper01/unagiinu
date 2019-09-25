@@ -40,6 +40,7 @@ const Navbar = () => (
           class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-100 mr-4"
         >
           Products
+          <ul></ul>
         </Link>
         <Link
           to="/blog"

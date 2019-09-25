@@ -56,15 +56,19 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="tile">
-                  {/* <h1 className="title">{mainpitch.title}</h1> */}
+                  <h1 className="title text-teal-400">{mainpitch.title}</h1>
                 </div>
                 <div className="tile">
-                  {/* <h3 className="subtitle">{mainpitch.description}</h3> */}
+                  <h3 className="subtitle text-yellow-500">
+                    {mainpitch.description}
+                  </h3>
                 </div>
-                {/* <div className="w-11/12 mx-auto">
-                  <h3 className="text-4xl text-center">{heading}</h3>
+                <div className="w-11/12 mx-auto">
+                  <h3 className="text-4xl text-center text-green-500">
+                    {heading}
+                  </h3>
                   <p>{description}</p>
-                </div> */}
+                </div>
                 <Features gridItems={intro.blurbs} />
                 <div className="w-11/12 mx-auto flex justify-center	 content-center">
                   <Link
